@@ -1,5 +1,5 @@
 .login_parent_container {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #001c30;
     color: white;
     display: flex;
