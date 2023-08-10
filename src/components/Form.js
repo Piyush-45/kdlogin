@@ -28,7 +28,7 @@ const Form = () => {
     return (
         <div className="form-container"> {/* Add a class name to the container for styling */}
             <h2>PLEASE fill basic details to continue</h2>
-            <form action='https://formspree.io/f/mrgwezga' method='POST' onSubmit={handleSubmit}>
+            <form action='https://formspree.io/f/xqkvpqde' method='POST' onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Name:</label>
                     <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
