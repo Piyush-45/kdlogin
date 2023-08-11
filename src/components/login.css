@@ -86,3 +86,17 @@ input:focus {
     background: #176B87;
     font-weight: bold;
 }
+
+
+
+@media screen and (max-width: 400px) {
+
+    .login-form input{
+      
+        padding: 0.3rem 0.7rem;
+        width: 14rem;
+    }
+    h3{
+        font-size: 1.8rem !important;
+    }
+  }
